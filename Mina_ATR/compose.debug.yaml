@@ -1,0 +1,6 @@
+services:
+  minaatr:
+    image: minaatr
+    build:
+      context: .
+      dockerfile: ./Dockerfile
